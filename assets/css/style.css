@@ -79,6 +79,49 @@ nav.nav-produtos ul.nav li:hover ul.nav {
   display: block;
 }
 
+.banners-promocionais-statico {
+  margin-top: 30px;
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x {
+  background-color: #ff0f9a;
+  background-image: url("../imagens/parcele-em-12x.jpg");
+}
+.banners-promocionais-statico .banners-promocionais-statico-todo-br {
+  background-color: #b343c3;
+  background-image: url("../imagens/entrega-para-todo-brasil.jpg");
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br {
+  background-size: cover;
+  height: 104;
+  padding: 24px 64px;
+  color: #fff;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x svg,
+.banners-promocionais-statico .banners-promocionais-statico-12x p,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br svg,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br p {
+  margin: 0;
+  padding: 0;
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x svg,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br svg {
+  width: 40px;
+  height: 40px;
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x p,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br p {
+  font-weight: 104;
+  font-size: 24px;
+  line-height: 112%;
+  margin-left: 24px;
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x p strong,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br p strong {
+  font-weight: bold;
+}
+
 /*!
 * Bootstrap v5.0.1 (https://getbootstrap.com/)
 * Copyright 2011-2021 The Bootstrap Authors
