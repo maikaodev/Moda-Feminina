@@ -139,6 +139,35 @@ nav.nav-produtos ul.nav li:hover ul.nav {
   fill: #ffc107;
 }
 
+footer {
+  background: #343a40;
+  padding: 24px 0;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #fff;
+}
+footer h4 {
+  color: #ffc107;
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  header form {
+    margin: 16px;
+  }
+  header ul {
+    margin-top: 16px;
+  }
+}
+@media (max-width: 992px) {
+  header ul li {
+    margin: 8px;
+  }
+}
 /*!
 * Bootstrap v5.0.1 (https://getbootstrap.com/)
 * Copyright 2011-2021 The Bootstrap Authors
