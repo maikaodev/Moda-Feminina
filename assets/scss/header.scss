@@ -1,0 +1,48 @@
+header {
+  background: $cor-primaria;
+  padding: 24px;
+
+  form {
+    input[Type="text"] {
+      background: $branco;
+      width: 100%;
+      border-radius: 100px;
+      border: none;
+      padding: 8px 8px 8px 16px;
+    }
+    button {
+      background: none;
+      border: none;
+      position: relative;
+      right: 40px;
+    }
+  }
+
+  ul {
+    li {
+      position: relative;
+      span.notificacao {
+        color: $branco;
+        background: $rosa;
+        box-sizing: border-box;
+        font-size: 16px;
+        font-weight: bold;
+        position: relative;
+        bottom: 18px;
+        left: 28px;
+        padding: 0 5px 0 6px;
+      }
+      a {
+        font-weight: bold;
+        color: $cor-secundaria;
+        svg {
+          width: 24px;
+          height: 24px;
+        }
+        &:hover {
+          color: lighten($cor-secundaria, 8%);
+        }
+      }
+    }
+  }
+}

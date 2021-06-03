@@ -35,16 +35,16 @@
     <!-- Container -->
     <section class="container">
       <!-- row -->
-      <article class="row">
+      <article class="row d-flex align-items-center">
         <!-- Logo -->
         <a href="#" class="col-md-2">
           <img src="./assets/imagens/logo.svg" alt="Logo da Empresa - Moda da Mulher">
         </a>
         <!-- End Logo -->
         <!-- Buscador -->
-        <form action="#" class="col-md-7">
+        <form action="#" class="col-md-7 d-flex align-items-center">
           <input type="text" name="name" placeholder="Procurar Roupas Aqui">
-          <button>
+          <button class="d-flex align-items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
               viewBox="0 0 16 16">
               <path
@@ -54,7 +54,7 @@
         </form>
         <!-- End Buscador -->
         <!-- Administrativo do Cliente -->
-        <ul class="nav col-md-3">
+        <ul class="nav col-md-3 d-flex align-items-center justify-content-around">
 
           <li class="nav-item">
             <a href="#">
@@ -67,7 +67,7 @@
           </li>
 
           <li class="nav-item">
-            <span class="notifacacao">3</span>
+            <span class="notificacao rounded-circle">3</span>
             <a href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3"
                 viewBox="0 0 16 16">
@@ -93,7 +93,7 @@
       <!-- Menu -->
       <ul class="nav">
         <!-- Lista de Itens - Moda Feminina -->
-        <li class="nav-item">
+        <li class=" col-md-2 nav-item d-flex align-items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
             viewBox="0 0 16 16">
             <path fill-rule="evenodd"
@@ -103,19 +103,27 @@
           <!-- SubMenu -->
           <ul class="nav flex-column">
             <li class="nav-item">
-              Lançamentos
+              <a href="#">
+                Lançamentos
+              </a>
             </li>
 
             <li class="nav-item">
-              Plus Size
+              <a href="#">
+                Plus Size
+              </a>
             </li>
 
             <li class="nav-item">
-              Moda Praia
+              <a href="#">
+                Moda Praia
+              </a>
             </li>
 
             <li class="nav-item">
-              Acessórios
+              <a href="#">
+                Acessórios
+              </a>
             </li>
 
             <li class="nav-item">
@@ -126,7 +134,7 @@
         </li>
         <!-- End Lista de Itens -Moda Feminina -->
         <!-- Lista de Itens Calçados -->
-        <li class="nav-item">
+        <li class=" col-md-2 nav-item d-flex align-items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
             viewBox="0 0 16 16">
             <path fill-rule="evenodd"
@@ -169,22 +177,27 @@
     </section>
     <!-- End Banners Promocionais Rotativos -->
     <!-- Banners Promocionais Com 6 Colunas -->
-    <section class="container">
+    <section class="container banners-promocionais-statico">
       <!-- row -->
       <section class="row">
         <!-- banner -->
         <article class="col-md-6">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card"
-            viewBox="0 0 16 16">
-            <path
-              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z" />
-            <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z" />
-          </svg>
-          <p>
-            Parcele em até<br>
-            <strong>12x Sem Juros</strong>
-          </p>
-          <article class="col-md-6">
+          <div class="banners-promocionais-statico-12x d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z" />
+              <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z" />
+            </svg>
+            <p>
+              Parcele em até<br>
+              <strong>12x Sem Juros</strong>
+            </p>
+          </div>
+        </article>
+        <article class="col-md-6">
+          <div class="banners-promocionais-statico-todo-br d-flex align-items-center">
+
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3"
               viewBox="0 0 16 16">
               <path
@@ -194,7 +207,7 @@
               Entrega para<br>
               <strong>todo Brasil</strong>
             </p>
-          </article>
+          </div>
         </article>
         <!-- end banner -->
       </section>

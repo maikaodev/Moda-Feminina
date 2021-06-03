@@ -1,0 +1,40 @@
+nav.nav-produtos {
+  background: $cor-secundaria;
+  color: $branco;
+  a {
+    color: $branco;
+  }
+  ul.nav {
+    li {
+      position: relative;
+      padding: 8px;
+      svg {
+        margin-right: 8px;
+        width: 24px;
+        height: 24px;
+      }
+      ul.nav {
+        z-index: 999;
+        display: none;
+
+        position: absolute;
+        top: 40px;
+        left: 0;
+
+        background: $cor-secundaria;
+        border-top: solid $cor-primaria 8px;
+
+        width: 100%;
+      }
+      li {
+        padding: 8px 24px;
+      }
+      &:hover {
+        background: darken($cor-secundaria, 30%);
+        ul.nav {
+          display: block;
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,84 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
+header {
+  background: #ffc107;
+  padding: 24px;
+}
+header form input[Type=text] {
+  background: #fff;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  padding: 8px 8px 8px 16px;
+}
+header form button {
+  background: none;
+  border: none;
+  position: relative;
+  right: 40px;
+}
+header ul li {
+  position: relative;
+}
+header ul li span.notificacao {
+  color: #fff;
+  background: #ff0f9a;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  bottom: 18px;
+  left: 28px;
+  padding: 0 5px 0 6px;
+}
+header ul li a {
+  font-weight: bold;
+  color: #343a40;
+}
+header ul li a svg {
+  width: 24px;
+  height: 24px;
+}
+header ul li a:hover {
+  color: #464e57;
+}
+
+nav.nav-produtos {
+  background: #343a40;
+  color: #fff;
+}
+nav.nav-produtos a {
+  color: #fff;
+}
+nav.nav-produtos ul.nav li {
+  position: relative;
+  padding: 8px;
+}
+nav.nav-produtos ul.nav li svg {
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+}
+nav.nav-produtos ul.nav li ul.nav {
+  z-index: 999;
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: #343a40;
+  border-top: solid #ffc107 8px;
+  width: 100%;
+}
+nav.nav-produtos ul.nav li li {
+  padding: 8px 24px;
+}
+nav.nav-produtos ul.nav li:hover {
+  background: black;
+}
+nav.nav-produtos ul.nav li:hover ul.nav {
+  display: block;
+}
+
 /*!
 * Bootstrap v5.0.1 (https://getbootstrap.com/)
 * Copyright 2011-2021 The Bootstrap Authors
@@ -11077,5 +11156,12 @@ textarea.form-control-lg {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+body {
+  color: #343a40;
+}
+
+a {
+  text-decoration: none !important;
+}
 
 /*# sourceMappingURL=style.css.map */

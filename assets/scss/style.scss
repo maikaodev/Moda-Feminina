@@ -1,5 +1,16 @@
 //Fontes
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
 
-//framework
+//Variaveis
+@import "./variaveis.scss";
+
+//Components
+@import "./header.scss";
+@import "./nav-produto.scss";
+@import "./banners-promocionais-statico.scss";
+
+//Framework
 @import "./bootstrap.scss";
+
+//Config
+@import "./config.scss";
