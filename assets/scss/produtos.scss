@@ -1,0 +1,18 @@
+.produtos {
+  margin: 30px 0;
+  .produtos-container {
+    margin: 30px 0;
+    .produtos-itens {
+      color: $cor-secundaria;
+      h2 {
+        font-size: 24px;
+        margin: 10px 0 0;
+      }
+      .produtos-stars {
+        svg {
+          fill: $cor-primaria;
+        }
+      }
+    }
+  }
+}

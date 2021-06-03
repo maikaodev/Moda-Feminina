@@ -122,6 +122,23 @@ nav.nav-produtos ul.nav li:hover ul.nav {
   font-weight: bold;
 }
 
+.produtos {
+  margin: 30px 0;
+}
+.produtos .produtos-container {
+  margin: 30px 0;
+}
+.produtos .produtos-container .produtos-itens {
+  color: #343a40;
+}
+.produtos .produtos-container .produtos-itens h2 {
+  font-size: 24px;
+  margin: 10px 0 0;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars svg {
+  fill: #ffc107;
+}
+
 /*!
 * Bootstrap v5.0.1 (https://getbootstrap.com/)
 * Copyright 2011-2021 The Bootstrap Authors
@@ -11205,6 +11222,18 @@ body {
 
 a {
   text-decoration: none !important;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
